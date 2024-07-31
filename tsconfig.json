@@ -5,7 +5,12 @@
       "strict": true,
       "esModuleInterop": true,
       "outDir": "./dist",
-      "rootDir": "./src"
+      "rootDir": "./src",
+      "allowJs": true,
+      "typeRoots": [
+        "./node_modules/@types",
+        "./@types"
+    ],
     },
     "include": ["src"],
     "exclude": ["node_modules"]
